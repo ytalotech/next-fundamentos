@@ -39,5 +39,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 node 20
 
 
-Server Components => A gente não usa JavaScript no lado do cliente
-Client Components => O JavaScript é enviado ao navegador (cliente) - só definir 'use client' no inicio do arquivo
+- Server Components => A gente não usa JavaScript no lado do cliente
+
+- Client Components => O JavaScript é enviado ao navegador (cliente) - só definir 'use client' no inicio do arquivo
+
+- Streaming SSR => Ler/escrever dados de forma parcial + Server-side Rendering
+- Renderizar um componente pelo lado do servidor de forma PARCIAL
