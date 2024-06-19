@@ -37,3 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 node 20
+
+
+Server Components => A gente não usa JavaScript no lado do cliente
+Client Components => O JavaScript é enviado ao navegador (cliente) - só definir 'use client' no inicio do arquivo
