@@ -50,3 +50,7 @@ node 20
 - No async client component
 
 - Quanto menor os componets que usam 'use client', melhor, significa que estou enviando menos js para o navegador, mais rapido a aplicação vai ser carregado
+
+- No momento que definir um componento 'use client' toso components importados nele seram tratados como 'use client' (Client Boundaries)
+
+- A forma de receber server components dentro de client components é enviar como children
