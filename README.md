@@ -45,3 +45,8 @@ node 20
 
 - Streaming SSR => Ler/escrever dados de forma parcial + Server-side Rendering
 - Renderizar um componente pelo lado do servidor de forma PARCIAL
+
+
+- No async client component
+
+- Quanto menor os componets que usam 'use client', melhor, significa que estou enviando menos js para o navegador, mais rapido a aplicação vai ser carregado
